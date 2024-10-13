@@ -5,7 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magenta's Portfolio</title>
     <link rel="stylesheet" href="styles.css"> <! -- when i fix jekyll -->
-    <style>body {
+    <style>
+        body {
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -67,7 +68,8 @@ h2 {
 footer {
     text-align: center;
     margin: 20px 0;
-}</style>
+}
+</style>
 </head>
 <body>
 
