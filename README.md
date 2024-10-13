@@ -1,8 +1,3 @@
-
- 
-     <!-- when I fix jekyll -->
-
-
 <header>
     <h1>Hi 👋, I'm Magenta</h1>
     <h3>heheheha</h3>
