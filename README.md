@@ -4,72 +4,72 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Magenta's Portfolio</title>
-    <link rel="stylesheet" href="styles.css"> <! -- when i fix jekyll -->
+    <link rel="stylesheet" href="styles.css"> <!-- when I fix jekyll -->
     <style>
         body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-}
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
 
-header {
-    text-align: center;
-    background: #333;
-    color: #fff;
-    padding: 20px 0;
-}
+        header {
+            text-align: center;
+            background: #333;
+            color: #fff;
+            padding: 20px 0;
+        }
 
-nav {
-    background: #444;
-    color: #fff;
-    padding: 10px 0;
-}
+        nav {
+            background: #444;
+            color: #fff;
+            padding: 10px 0;
+        }
 
-.nav-links {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+        .nav-links {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-.nav-link {
-    color: #fff;
-    margin: 0 15px;
-    text-decoration: none;
-}
+        .nav-link {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
 
-.nav-link:hover {
-    text-decoration: underline;
-}
+        .nav-link:hover {
+            text-decoration: underline;
+        }
 
-section {
-    margin: 20px auto;
-    padding: 20px;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 800px;
-}
+        section {
+            margin: 20px auto;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 800px;
+        }
 
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 10px;
-}
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
+        }
 
-.project {
-    margin-bottom: 15px;
-}
+        .project {
+            margin-bottom: 15px;
+        }
 
-.skills img {
-    margin: 5px;
-}
+        .skills img {
+            margin: 5px;
+        }
 
-footer {
-    text-align: center;
-    margin: 20px 0;
-}
-</style>
+        footer {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
 </head>
 <body>
 
@@ -78,18 +78,17 @@ footer {
     <h3>heheheha</h3>
 </header>
 
-    <nav class="navbar">
-        <div class="nav-links">
-            <a href="Projects.html" class="nav-link">Projects</a>
-            <a href="Achievements.html" class="nav-link">Achievements</a>
-            <a href="Resume.html" class="nav-link">Resume</a>
-        </div>
-    </nav>
+<nav class="navbar">
+    <div class="nav-links">
+        <a href="Projects.html" class="nav-link">Projects</a>
+        <a href="Achievements.html" class="nav-link">Achievements</a>
+        <a href="Resume.html" class="nav-link">Resume</a>
+    </div>
+</nav>
 
 <section>
     <h2>Connect with me:</h2>
     <p>
-        
         <a href="https://www.linkedin.com/in/magenta-ong-766378307" target="_blank">LinkedIn</a> |
         <a href="https://github.com/magentaong" target="_blank">GitHub</a> |
     </p>
@@ -109,7 +108,7 @@ footer {
     </div>
     <div class="project">
         <h3>3. PawsNow</h3>
-        <p> A gamified cat-themed study webapp</p>
+        <p>A gamified cat-themed study webapp</p>
         <a href="link_to_third_project" target="_blank">View Project</a>
     </div>
 </section>
