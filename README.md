@@ -7,61 +7,7 @@
      <!-- when I fix jekyll -->
 </head>
 <body>
-<style>
-        body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
-        header {
-            text-align: center;
-            background: #333;
-            color: #fff;
-            padding: 20px 0;
-        }
-        nav {
-            background: #444;
-            color: #fff;
-            padding: 10px 0;
-        }
-        .nav-links {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-        }
-        .nav-link {
-            color: #fff;
-            margin: 0 15px;
-            text-decoration: none;
-        }
-        .nav-link:hover {
-            text-decoration: underline;
-        }
-        section {
-            margin: 20px auto;
-            padding: 20px;
-            background: #fff;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-            max-width: 800px;
-        }
-        h2 {
-            border-bottom: 2px solid #333;
-            padding-bottom: 10px;
-        }
-        .project {
-            margin-bottom: 15px;
-        }
-        .skills img {
-            margin: 5px;
-        }
-        footer {
-            text-align: center;
-            margin: 20px 0;
-        }
-</style>
+
 <header>
     <h1>Hi 👋, I'm Magenta</h1>
     <h3>heheheha</h3>
