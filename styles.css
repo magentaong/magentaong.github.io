@@ -61,3 +61,9 @@ footer {
     text-align: center;
     margin: 20px 0;
 }
+
+#addBall, #removeBall {
+    position: relative;
+    z-index: 50;
+    pointer-events: auto;
+}

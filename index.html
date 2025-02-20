@@ -6,18 +6,19 @@
     <title>Magenta's Portfolio</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/Draggable.min.js"></script>
+    <script src="floatingBalls.js"></script>
 </head>
 <body class="bg-black text-white font-sans">
-
     
     <header class="w-full fixed top-0 bg-black z-10">
         <div class="container mx-auto flex justify-between items-center py-4 px-6">
           <h1 class="text-2xl font-bold text-orange-500">Magenta Ong</h1>
           <nav>
             <ul class="flex space-x-6 text-lg">
-              <li><a href="#home" class="hover:text-orange-500">Home</a></li>
+              <li><a href="index.html" class="hover:text-orange-500">Home</a></li>
               <li><a href="#portfolio" class="hover:text-orange-500">Projects</a></li>
-              <li><a href="#blog" class="hover:text-orange-500">Blog</a></li>
+              <li><a href="ballpit.html" class="hover:text-orange-500">Ball Pit</a></li>
               <li><a href="#contact" class="hover:text-orange-500">Contact</a></li>
             </ul>
           </nav>
@@ -30,6 +31,26 @@
         <p class="text-gray-400 text-xl">Aspiring Full Stack Developer & Designer</p>
         </div>
     </section>
+
+    <!-- Container for Floating Balls -->
+    <div id="ball-container"></div>
+
+    <style>
+    /* Styling for all balls */
+    
+    .drag-ball {
+        position: fixed;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        pointer-events: auto;
+        cursor: pointer;
+        filter: blur(2px);
+        mix-blend-mode: difference;
+    }
+    </style>
+
+    
     <!-- Connect Section -->
     <section class="max-w-4xl mx-auto text-center py-10 bg-black">
         <h2 class="text-3xl font-bold text-orange-400 mb-4 bg-black">Connect with me:</h2>
@@ -79,10 +100,18 @@
                     <a href="link_to_tasksnipe_project" target="_blank" class="mt-4 px-4 py-2 bg-orange-400 text-white rounded-lg hover:bg-orange-500">View Project</a>
                 </div>
             </div>
-
+            <!-- Naruto Project Card -->
+            <div class="group flex-shrink-0 w-[350px] sm:w-[450px] bg-black rounded-lg overflow-hidden shadow-lg snap-center relative">
+                <img src="https://hipfonts.com/wp-content/uploads/2022/11/Naruto-Logo.jpg" alt="NarutoPage" class="object-cover w-full h-64">
+                <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
+                    <h3 class="text-2xl font-bold text-orange-400">The Legends of Hidden Leaf</h3>
+                    <p class="text-gray-300 mt-2 text-center">A thematic web design project exploring storytelling through immersive UI</p>
+                    <a href="https://magentaong.github.io/Naruto/" target="_blank" class="mt-4 px-4 py-2 bg-orange-400 text-white rounded-lg hover:bg-orange-500">View Project</a>
+                </div>
+            </div>
             <!-- EcoStep Project Card -->
             <div class="group flex-shrink-0 w-[350px] sm:w-[450px] bg-black rounded-lg overflow-hidden shadow-lg snap-center relative">
-                <img src="images/Screenshot 2025-02-20 at 3.13.08 PM.png" alt="EcoStep" class="object-cover w-full h-64">
+                <img src="images/Screenshot 2025-02-20 at 4.11.49 PM.png" alt="EcoStep" class="object-cover w-full h-64">
                 <div class="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center opacity-0 group-hover:opacity-100 transition duration-300">
                     <h3 class="text-2xl font-bold text-orange-400">EcoStep</h3>
                     <p class="text-gray-300 mt-2 text-center">A personal exploration of UI/UX principles through a fictional client project.</p>
@@ -104,7 +133,7 @@
         </ul>
     </section>
     <!-- Resume Section -->
-    <section class="max-w-4xl mx-auto text-center py-10">
+    <section class="max-w-4xl mx-auto text-center py-10 relative z-10">
         <h2 class="text-3xl font-bold text-orange-400 mb-4">Resume</h2>
         <img src="images/T4_3_page-0001.jpg">
     </section>
